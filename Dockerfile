@@ -4,4 +4,5 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-ENTRYPOINT [ "docker-entrypoint.sh", "https" ]
+#ENTRYPOINT [ "tail", "-f", "/dev/null"]
+ENTRYPOINT [ "./entrypoint.sh", "https" ]

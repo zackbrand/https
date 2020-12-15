@@ -3,7 +3,7 @@ export { config as default };
 //==============================================================================
 const config = {
   port: 3000,
-  key: 'keys/domain.key',
-  cert: 'keys/domain.crt'
+  key: 'code/keys/domain.key',
+  cert: 'code/keys/domain.crt'
 };
 //==============================================================================
