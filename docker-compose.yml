@@ -6,6 +6,6 @@ services:
     build:
       context: .
     volumes:
-      - ./keys:/keys
+      - ./keys:/usr/src/app/code/keys
     ports:
       - "3000:3000"
